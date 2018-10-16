@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class beautifulYear_271A {
 
-    private static Scanner scan = new Scanner(System.in);
+  private static Scanner scan = new Scanner(System.in);
   private static int num = scan.nextInt();
   private static boolean trigger = true;
 
