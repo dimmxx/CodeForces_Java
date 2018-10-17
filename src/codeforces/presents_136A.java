@@ -1,5 +1,4 @@
 package codeforces;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class presents_136A {
@@ -20,7 +19,7 @@ public class presents_136A {
             presentInt[indexMin(presentInt)] = 999;
         }
 
-        for(int i : array) System.out.print(i);
+        for(int i : array) System.out.print(i + " ");
 
 }
     public static int indexMin (int[] array){
