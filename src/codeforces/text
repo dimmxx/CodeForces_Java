@@ -1,0 +1,21 @@
+1. Изменять строку (объект класса java.lang.String) в цикле всегда очень плохая идея.
+2. Идея получше создать массив и добавлять в него символы из второй строки которых нет в первой, примерно так:
+String str1 = "ach";
+String str2 = "abcdefgh";
+
+int lastChar = 0;
+char[] buffer = new char[str2.length()];
+for (int i = 0; i < str2.length(); i++) {
+  char tmp = str2.charAt(i);
+  if (str1.indexOf(tmp) < 0) {
+    buffer[lastChar] = tmp;
+    lastChar++;
+  }
+}
+
+str2 = String.valueOf(buffer, 0, lastChar);
+
+3. И совсем уж хорошая идея погуглить и найти метод String#replaceAll и написать всего одну строчку:
+String s = "abcdefgh".replaceAll("[ach]", "");
+
+

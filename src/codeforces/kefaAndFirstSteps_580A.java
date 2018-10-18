@@ -6,6 +6,7 @@ public class kefaAndFirstSteps_580A {
     private static String day = scanner.nextLine();
     private static String progress = scanner.nextLine();
 
+
     public static void main(String[] args) {
         scanner.close();
         String[] progressArrStr = progress.split(" ");
