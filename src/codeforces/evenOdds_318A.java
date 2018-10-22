@@ -1,18 +1,20 @@
 package codeforces;
+import java.math.BigInteger;
 import java.util.Scanner;
 import java.util.Arrays;
 
 public class evenOdds_318A {
-
+/*
 
     public static void main (String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        //Scanner scanner = new Scanner(System.in);
+        //String input = scanner.nextLine();
 
-        //String input = "11 1";
+       // 1 000 000 000 000, 500 000 000 001
+        String input = "1000000000000 500000000001";
         String[] line = input.split(" ");
-        int[] lineInt = new int[line.length];
+        BigInteger[] lineInt = new BigInteger[line.length];
         for (int i = 0; i < line.length; i++) lineInt[i] = Integer.parseInt(line[i]);
 
         //System.out.println(Arrays.toString(lineInt));
@@ -35,5 +37,5 @@ public class evenOdds_318A {
         System.out.println(array[lineInt[1] - 1]);
 
     }
-
+*/
 }
