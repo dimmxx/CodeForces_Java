@@ -27,17 +27,14 @@ public class iWannaBeTheGuy_369A {
         int counter = 1;
         boolean flag = true;
         for(int i : lineSet) {
+            if (i == 0) counter = 0;
             if(i == counter) counter++;
             else {
                 flag = false;
                 break;
             }
         }
-
         if(flag & counter - 1 == level) System.out.println("I become the guy.");
         else System.out.println("Oh, my keyboard!");
-
-
     }
-
 }

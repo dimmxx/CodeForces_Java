@@ -8,7 +8,8 @@ public class beautifulYear_271A {
   private static boolean trigger = true;
 
   public static void main(String[] args){
-    scan.close();
+    
+      scan.close();
     num++;
     while(trigger) loop();
     System.out.println(num);
