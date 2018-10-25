@@ -16,7 +16,7 @@ public class evenOdds_318A {
         String[] line = input.split(" ");
         int[] lineInt = new int[line.length];
 
-        for (int i = 0; i < line.length; i++) lineInt[i] = Integer.parseInt(line[i]);
+        for (int i = 0; i < lineInt.length; i++) lineInt[i] = Integer.parseInt(line[i]);
 
         //System.out.println(Arrays.toString(lineInt));
 
