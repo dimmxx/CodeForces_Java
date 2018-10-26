@@ -23,8 +23,8 @@ public class gravityFlip_405A {
         for(int i = 0; i < columnInt.length; i++) max = Math.max(max, columnInt[i]);
 
 
-        //int [][] matrix = new int[max][columnInt.length];
-        int[][] matrix = {{}}
+        int [][] matrix = new int[max][columnInt.length];
+
 
         System.out.println(Arrays.toString(matrix));
 
